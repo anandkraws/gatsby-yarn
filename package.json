@@ -98,7 +98,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "lerna run build --stream",
+    "build": "lerna run build --stream --ignore gatsby-core-utils",
     "bootstrap": "cross-env COMPILER_OPTIONS=\"GATSBY_MAJOR=5\" npm-run-all -s \"lerna-prepare -- --{@}\" --",
     "check-repo-fields": "node scripts/check-repo-fields.js",
     "check-versions": "node scripts/check-versions.js",
