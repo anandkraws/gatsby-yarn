@@ -1,7 +1,8 @@
 # Logs
 logs
 *.log
-
+#add script.sh
+script.sh
 # Runtime data
 pids
 *.pid
